@@ -1,0 +1,1075 @@
+{
+  "common": {
+    "home": "Home",
+    "anketas": "Anketas",
+    "login": "Login",
+    "logout": "Logout",
+    "account": "Account",
+    "admin": "Admin",
+    "theme": "Theme",
+    "language": "Language",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "Error"
+  },
+  "nav": {
+    "home": "Home",
+    "anketas": "Specialists",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "account": "Account",
+    "logout": "Logout"
+  },
+  "footer": {
+    "address": "Address",
+    "addressTitle": "Address",
+    "phone": "Phone",
+    "contact": "Contact",
+    "contactUs": "Contact Us",
+    "links": "Useful Links",
+    "about": "About Us",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "kyc": "KYC",
+    "contactWhatsApp": "Contact on WhatsApp",
+    "writeWhatsApp": "Write on WhatsApp",
+    "quickResponse": "We respond quickly and for free",
+    "whatsappMessage": "Hello! I found your profile on the site and would like to discuss a service.",
+    "companyName": "RabotaVsem",
+    "companyDescription": "Platform for finding anketas with official employment and transparent conditions.",
+    "projectName": "RabotaVsem",
+    "allRightsReserved": "All rights reserved.",
+    "contactInfoComingSoon": "Contact information coming soon",
+    "whatsappComingSoon": "WhatsApp contact coming soon"
+  },
+  "home": {
+    "title": "Find a Verified Anketa with Official Employment",
+    "subtitle": "Platform for finding anketas with official employment and transparent conditions. Suitable for students, moms, and those looking for part-time work.",
+    "contactWhatsApp": "Contact on WhatsApp",
+    "browseAnketas": "Find a Anketa",
+    "becomeAnketa": "Become a Anketa",
+    "categories": "Service Categories",
+    "anketas": "anketas",
+    "faq": "Frequently Asked Questions",
+    "faqSubtitle": "Answers to the most popular questions about the platform, official employment and working with anketas",
+    "faqCtaTitle": "Can't find an answer?",
+    "faqCtaDescription": "Write to us on WhatsApp and we'll help you",
+    "whatsappMessage": "Hello! I found your profile on the site and would like to discuss a service.",
+    "ctaTitle": "Ready to get started?",
+    "ctaDescription": "Contact us via WhatsApp for more information",
+    "trustOfficial": "Official Employment",
+    "trustFlexible": "Flexible Schedule",
+    "trustStudents": "Suitable for Students",
+    "whyTrustUs": "Why Trust Us",
+    "howItWorks": {
+      "title": "How It Works",
+      "step1Title": "Find a Anketa",
+      "step1Description": "Browse profiles of verified anketas with official employment",
+      "step2Title": "Review Profile",
+      "step2Description": "Learn about services, experience, and reviews of the anketa",
+      "step3Title": "Get in Touch",
+      "step3Description": "Contact the anketa via WhatsApp with one click",
+      "step4Title": "Get Service",
+      "step4Description": "Discuss details and start cooperation with an official contract"
+    },
+    "whyOfficial": {
+      "title": "Why Official Employment Matters",
+      "subtitle": "We create a safe and transparent environment for all platform participants",
+      "benefit1": {
+        "title": "Legal Protection",
+        "description": "All anketas work under official contracts, ensuring protection of rights and interests of both parties",
+        "highlight": "100% Legal"
+      },
+      "benefit2": {
+        "title": "Transparent Conditions",
+        "description": "Clear cooperation terms, without hidden fees and unexpected requirements",
+        "highlight": "No Hidden Fees"
+      },
+      "benefit3": {
+        "title": "Trust Between Parties",
+        "description": "Official employment creates a foundation for long-term and reliable cooperation",
+        "highlight": "Long-term Cooperation"
+      },
+      "benefit4": {
+        "title": "No 'Gray' Agreements",
+        "description": "All transactions are transparent, legal and comply with legal requirements",
+        "highlight": "Full Transparency"
+      }
+    },
+    "whyJoin": {
+      "badge": "For Anketas",
+      "title": "Start Earning on the Platform",
+      "subtitle": "Hundreds of orders and vacancies every day",
+      "feature1": {
+        "title": "Work for Everyone",
+        "description": "Choose the service categories you are interested in and receive hundreds of new applications and vacancies every day"
+      },
+      "feature2": {
+        "title": "Work on Your Reputation",
+        "description": "Perform work qualitatively, receive positive reviews, and clients will choose you more often"
+      },
+      "feature3": {
+        "title": "Favorable Conditions",
+        "description": "We do not take a commission from each order, you only pay for access to applications, and also receive bonuses"
+      },
+      "feature4": {
+        "title": "Everything is in Your Hands",
+        "description": "Register, create a profile and your future will be in your hands"
+      },
+      "cta": "Become a Anketa",
+      "imagePlaceholder": "Anketa image"
+    },
+    "trustSafety": {
+      "title": "Safety and Transparency",
+      "description": "We create a safe and transparent environment for clients and anketas.",
+      "qaTitle": "Answers to Important Questions",
+      "feature1": {
+        "title": "Profile Verification",
+        "description": "All anketas are verified before their profile is published"
+      },
+      "feature2": {
+        "title": "Ratings and Reviews",
+        "description": "Rating and review system helps you choose a reliable anketa"
+      },
+      "feature3": {
+        "title": "Quality Control",
+        "description": "Continuous monitoring of service quality and maintaining high standards"
+      },
+      "feature4": {
+        "title": "Support",
+        "description": "Our support team is always ready to help resolve any questions"
+      }
+    },
+    "trustQA": {
+      "question1": "How do we verify anketas?",
+      "answer1": "Each anketa goes through a multi-stage verification: contact data verification, document check, assessment of experience and skills. Only after successful verification is the profile published on the platform. This guarantees safety for clients and protection of anketas' rights.",
+      "question2": "What does official employment mean?",
+      "answer2": "All anketas work under official employment contracts or service agreements. This guarantees legal protection, transparent payment terms, compliance with labor laws and no 'gray' schemes. You work legally with full protection of your rights.",
+      "question3": "How is the rating formed?",
+      "answer3": "The rating is formed based on client reviews, quality of work performed, timeliness of order completion and other factors. We constantly monitor service quality and update ratings. This helps clients choose a reliable anketa, and anketas to show their professionalism.",
+      "question4": "How do we protect clients and anketas?",
+      "answer4": "We ensure protection for both parties through official contracts, rating and review system, 24/7 support and continuous quality monitoring. In case of problems, our support service promptly helps resolve any issues."
+    },
+    "liveSignals": {
+      "verifiedCount": 100,
+      "verifiedLabel": "verified anketas",
+      "rating": 4.8,
+      "ratingLabel": "Average rating",
+      "reviewsCount": 250,
+      "reviewsLabel": "Real reviews from clients"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "loginDescription": "Login to manage your profiles and receive official applications",
+    "register": "Register",
+    "registerDescription": "Create an account and start working officially today",
+    "identifier": "Phone, email or username",
+    "emailOrPhone": "Email or phone",
+    "identifierPlaceholder": "Enter phone, email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "confirmPassword": "Confirm password",
+    "confirmPasswordPlaceholder": "Repeat password",
+    "firstName": "First name",
+    "firstNamePlaceholder": "Enter first name",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Enter last name",
+    "passwordHint": "Minimum 8 characters, must contain letter and number",
+    "show": "Show",
+    "hide": "Hide",
+    "loggingIn": "Logging in...",
+    "registering": "Registering...",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginMethod": "Login method",
+    "email": "Email",
+    "phone": "Phone",
+    "sendCode": "Send code",
+    "sending": "Sending...",
+    "codeSent": "Code sent! Redirecting to verification...",
+    "verify": "Verify",
+    "verifyDescription": "Enter the code sent to your email or phone",
+    "code": "Verification code",
+    "codeSentTo": "Code sent to",
+    "verifying": "Verifying...",
+    "verificationFailed": "Verification failed",
+    "step": "Step",
+    "of": "of",
+    "continue": "Continue",
+    "back": "Back",
+    "noSpam": "No spam",
+    "officialEmployment": "Official employment",
+    "support24": "24/7 support",
+    "identifierRequired": "This field is required",
+    "passwordRequired": "Password is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email format",
+    "phoneRequired": "Phone is required",
+    "phoneInvalid": "Invalid phone format",
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "passwordMinLength": "Minimum 8 characters",
+    "confirmPasswordRequired": "Password confirmation is required",
+    "passwordsNotMatch": "Passwords do not match",
+    "passwordWeak": "Weak password",
+    "passwordMedium": "Medium password",
+    "passwordStrong": "Strong password",
+    "emailVerification": "Email verification",
+    "emailVerificationDescription": "We sent a code to your email",
+    "phoneVerification": "Phone verification",
+    "phoneVerificationDescription": "We sent a code to your phone",
+    "phoneVerificationRequired": "Phone verification required",
+    "phoneVerificationWhatsAppMessage": "Hello! I want to verify my phone number {phone} to start official work.",
+    "phoneVerified": "Phone verified by administrator",
+    "contactWhatsApp": "Contact via WhatsApp",
+    "emailVerified": "Email verified",
+    "codeInvalid": "Invalid code",
+    "codeExpired": "Code expired",
+    "resendCode": "Resend code",
+    "resendCodeIn": "Resend code in {seconds} sec",
+    "blockedTitle": "Maximum verification code attempts exceeded",
+    "blockedMessage": "Try again in",
+    "blockedMessageStep4": "You have exhausted the number of verification code attempts. Return to the start of registration and try again later.",
+    "backToStart": "Back to registration start",
+    "toManyAttemps": "Too many incorrect attempts.",
+    "tryAgainIn": "Try again in:",
+    "enterValidEmail": "Enter a valid email",
+    "enterNameAndLastname": "Enter first and last name",
+    "passwordMin8": "Password must be at least 8 characters",
+    "failedToSendCode": "Failed to send code",
+    "enterCode6Digits": "Enter 6-digit code",
+    "failedToCompleteRegistration": "Failed to complete registration",
+    "loginError": "Login error",
+    "invalidData": "Invalid data",
+    "invalidOrExpiredCode": "Invalid or expired code",
+    "invalidEmail": "Invalid email",
+    "invalidLoginOrPassword": "Invalid login or password"
+  },
+  "email": {
+    "verificationSubject": "Email verification code",
+    "verificationText": "Your verification code: {code}\n\nCode is valid for 10 minutes."
+  },
+  "sms": {
+    "verificationText": "Your verification code: {code}\n\nCode is valid for 10 minutes."
+  },
+  "anketas": {
+    "title": "Anketas",
+    "description": "Find a verified anketa with official employment",
+    "viewDetails": "View Details",
+    "contact": "Contact",
+    "contactWhatsApp": "Contact on WhatsApp",
+    "whatsappMessage": "Hello! I found your profile on the site and would like to discuss a service.",
+    "filters": "Filters",
+    "clear": "Clear",
+    "search": "Search",
+    "searchPlaceholder": "Search anketas by services, skills, description...",
+    "searchHint": "You can search with typos and imprecise wording",
+    "mainFilters": "Main",
+    "additionalFilters": "Additional",
+    "city": "City",
+    "allCities": "All Cities",
+    "category": "Category",
+    "allCategories": "All Categories",
+    "rating": "Rating",
+    "allRatings": "All Ratings",
+    "rating5Stars": "5 stars",
+    "rating4Plus": "4+ stars",
+    "rating3Plus": "3+ stars",
+    "onlyWithReviews": "Only with reviews",
+    "sortBy": "Sort by",
+    "sortByRating": "By rating",
+    "sortByReviews": "By number of reviews",
+    "sortByNewest": "Newest first",
+    "sortByOldest": "Oldest first",
+    "found": "Found {count}",
+    "foundResults": "Found {count} {count, plural, =0 {results} one {result} other {results}}",
+    "noResults": "No anketas found",
+    "noResultsDescription": "Try adjusting your search parameters or contact us",
+    "backToAnketas": "Back to Anketas",
+    "details": "Anketa Profile",
+    "services": "Services",
+    "experience": "Experience",
+    "bio": "About Anketa",
+    "officialEmployment": "Official Employment",
+    "officialEmploymentBadge": "Official",
+    "verified": "Verified",
+    "verifiedBadge": "Verified",
+    "safeBadge": "Safe",
+    "similarAnketas": "Similar Anketas",
+    "contactNotAvailable": "Contact information not available",
+    "phone": "Phone",
+    "email": "Email",
+    "call": "Call",
+    "copy": "Copy",
+    "copied": "Copied",
+    "share": "Share",
+    "shareProfileText": "Check out this anketa profile",
+    "reviews": "Reviews",
+    "noReviews": "No reviews yet. Be the first!",
+    "ratingLabel": "Rating",
+    "yourComment": "Your review",
+    "commentPlaceholder": "Write your review about the anketa's work...",
+    "submitComment": "Submit review",
+    "submitting": "Submitting...",
+    "commentError": "Error submitting review",
+    "loginToComment": "Login to leave a review",
+    "loginToCommentDescription": "Only registered users can leave reviews",
+    "login": "Login"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Personal Data Processing Policy",
+      "lastUpdated": "Last updated",
+      "lastUpdatedDate": "2024",
+      "sections": [
+        {
+          "title": "1. General Provisions",
+          "content": [
+            "This personal data processing policy is drawn up in accordance with the requirements of the Law of the Republic of Kazakhstan dated May 21, 2013 No. 94-V \"On Personal Data and Their Protection\" and defines the procedure for processing personal data and measures to ensure the security of personal data of RabotaVsem company (hereinafter - the Operator).",
+            "The Operator sets as its most important goal and condition for the implementation of its activities the observance of human and civil rights and freedoms in the processing of personal data, including the protection of the rights to privacy, personal and family secrets.",
+            "This Operator's policy regarding the processing of personal data (hereinafter - the Policy) applies to all information that the Operator can receive about visitors to the RabotaVsem platform website."
+          ]
+        },
+        {
+          "title": "2. Basic Concepts Used in the Policy",
+          "content": [
+            "Automated processing of personal data - processing of personal data using computer technology;",
+            "Blocking of personal data - temporary termination of processing of personal data (except for cases where processing is necessary to clarify personal data);",
+            "Website - a set of graphic and information materials, as well as computer programs and databases that ensure their availability on the Internet at the address of the RabotaVsem platform;",
+            "Information system of personal data - a set of personal data contained in databases and information technologies and technical means that ensure their processing;",
+            "Depersonalization of personal data - actions as a result of which it is impossible to determine without using additional information the ownership of personal data to a specific User or other subject of personal data;",
+            "Processing of personal data - any action (operation) or set of actions (operations) performed with or without the use of automation tools with personal data, including collection, recording, systematization, accumulation, storage, clarification (update, change), extraction, use, transfer (distribution, provision, access), depersonalization, blocking, deletion, destruction of personal data;",
+            "Operator - a state body, municipal body, legal entity or individual, independently or jointly with other persons organizing and (or) carrying out the processing of personal data, as well as determining the purposes of processing personal data, the composition of personal data to be processed, actions (operations) performed with personal data;",
+            "Personal data - any information relating directly or indirectly to a specific or identifiable User of the website;",
+            "User - any visitor to the RabotaVsem platform website;",
+            "Provision of personal data - actions aimed at disclosing personal data to a specific person or a specific circle of persons;",
+            "Distribution of personal data - any actions aimed at disclosing personal data to an indefinite circle of persons (transfer of personal data) or at familiarizing with personal data of an unlimited circle of persons, including the publication of personal data in the media, placement in information and telecommunication networks or providing access to personal data in any other way;",
+            "Cross-border transfer of personal data - transfer of personal data to the territory of a foreign state to a foreign state authority, foreign individual or foreign legal entity;",
+            "Destruction of personal data - any actions as a result of which personal data are destroyed irrevocably with the impossibility of further restoration of the content of personal data in the information system of personal data and (or) as a result of which material carriers of personal data are destroyed."
+          ]
+        },
+        {
+          "title": "3. The Operator May Process the Following Personal Data of the User",
+          "content": [
+            "Last name, first name, patronymic;",
+            "Email address;",
+            "Phone numbers;",
+            "Specialist profile information (service descriptions, work experience, skills, education);",
+            "Data for official employment (passport data, IIN, documents confirming qualifications);",
+            "Address of residence or work;",
+            "The site also collects and processes anonymized data about visitors (including \"cookie\" files) using Internet statistics services (Yandex Metrica, Google Analytics and others);",
+            "Technical data (IP address, browser type, operating system, device information);",
+            "The above data are further combined by the general concept of Personal Data in the text of the Policy."
+          ]
+        },
+        {
+          "title": "4. Purposes of Personal Data Processing",
+          "content": [
+            "The purpose of processing the User's personal data is to ensure the functioning of the RabotaVsem platform, including:",
+            "Creating and managing specialist profiles;",
+            "Organizing communication between clients and specialists;",
+            "Ensuring official employment of specialists;",
+            "Informing the User by sending emails and SMS messages;",
+            "Conducting verification and verification of user data;",
+            "The Operator also has the right to send notifications to the User about new platform features, special offers and various events. The User can always refuse to receive informational messages by sending a letter to the Operator's email address with the note \"Refusal of notifications about new products and services and special offers\";",
+            "Anonymized User data collected using Internet statistics services serve to collect information about User actions on the site, improve the quality of the site and its content."
+          ]
+        },
+        {
+          "title": "5. Legal Basis for Personal Data Processing",
+          "content": [
+            "The Operator processes the User's personal data only if they are filled in and/or sent by the User independently through special forms located on the RabotaVsem platform. By filling out the relevant forms and/or sending their personal data to the Operator, the User expresses their consent to this Policy;",
+            "The Operator processes anonymized data about the User if this is allowed in the User's browser settings (saving \"cookie\" files and using JavaScript technology is enabled)."
+          ]
+        },
+        {
+          "title": "6. Procedure for Collection, Storage, Transfer and Other Types of Personal Data Processing",
+          "content": [
+            "The security of personal data processed by the Operator is ensured through the implementation of legal, organizational and technical measures necessary to fully comply with the requirements of current legislation in the field of personal data protection.",
+            "The Operator ensures the safety of personal data and takes all possible measures to exclude access to personal data by unauthorized persons.",
+            "The User's personal data will never, under any circumstances, be transferred to third parties, except in cases related to the execution of current legislation, as well as in cases where this is necessary to ensure official employment of specialists (transfer of data to employers, government agencies within the framework of labor relations).",
+            "In case of detection of inaccuracies in personal data, the User can update them independently through the personal account on the platform or by sending a notification to the Operator's email address with the note \"Updating personal data\".",
+            "The period of processing personal data is unlimited. The User can withdraw their consent to the processing of personal data at any time by sending a notification to the Operator via email with the note \"Withdrawal of consent to the processing of personal data\"."
+          ]
+        },
+        {
+          "title": "7. Cross-Border Transfer of Personal Data",
+          "content": [
+            "Before starting the cross-border transfer of personal data, the Operator is obliged to make sure that the foreign state, to whose territory it is supposed to transfer personal data, provides reliable protection of the rights of personal data subjects.",
+            "Cross-border transfer of personal data to the territories of foreign states that do not meet the above requirements can only be carried out if there is written consent of the personal data subject to the cross-border transfer of his personal data and/or execution of a contract, the party of which is the personal data subject."
+          ]
+        },
+        {
+          "title": "8. Final Provisions",
+          "content": [
+            "The User can get any clarifications on issues of interest regarding the processing of his personal data by contacting the Operator through the feedback form on the platform or by email.",
+            "This document will reflect any changes to the Operator's personal data processing policy. The Policy is valid indefinitely until it is replaced by a new version.",
+            "The current version of the Policy is freely available on the Internet on the RabotaVsem platform."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "User Agreement",
+      "lastUpdated": "Last updated",
+      "lastUpdatedDate": "2024",
+      "sections": [
+        {
+          "title": "1. General Provisions",
+          "content": [
+            "This User Agreement (hereinafter - the Agreement) governs the relationship between RabotaVsem company (hereinafter - the Administration) and users of the RabotaVsem platform (hereinafter - Users, User).",
+            "By using the RabotaVsem platform, you agree to these Terms of Use. If you do not agree with any terms, please do not use our service.",
+            "The Administration reserves the right to change this Agreement at any time. Changes take effect from the moment of their publication on the platform. Continued use of the platform after making changes means your agreement with the new terms."
+          ]
+        },
+        {
+          "title": "2. Service Description",
+          "content": [
+            "RabotaVsem is a platform for finding specialists and part-time work with official employment. The platform provides the opportunity to:",
+            "Specialists - create profiles, post information about their services, receive orders from clients and work officially;",
+            "Clients - find verified specialists, view their profiles, reviews and ratings, contact specialists to order services;",
+            "We provide a platform for communication between clients and specialists, ensuring transparency, security of interaction and compliance with labor legislation."
+          ]
+        },
+        {
+          "title": "3. Registration and Account",
+          "content": [
+            "To use the platform, the User must go through the registration procedure by providing reliable information about themselves.",
+            "The User is responsible for the safety of their credentials (login, password) and for all actions performed under their account.",
+            "The User undertakes to immediately notify the Administration of any unauthorized use of their account.",
+            "The Administration has the right to block or delete the User's account in case of violation of this Agreement or the legislation of the Republic of Kazakhstan."
+          ]
+        },
+        {
+          "title": "4. User Obligations",
+          "content": [
+            "Users agree to:",
+            "Provide reliable, up-to-date and complete information about themselves;",
+            "Comply with the legislation of the Republic of Kazakhstan and ethical standards;",
+            "Not use the platform for illegal purposes, fraud or deception of other users;",
+            "Respect the rights of other users, do not post offensive, defamatory or illegal content;",
+            "Not transfer their account to third parties;",
+            "Not use automated systems to access the platform without written permission from the Administration;",
+            "Comply with the rules for posting content and not violate the copyrights of third parties."
+          ]
+        },
+        {
+          "title": "5. Official Employment",
+          "content": [
+            "All specialists on the RabotaVsem platform work officially, in compliance with the labor legislation of the Republic of Kazakhstan.",
+            "The Administration ensures legal protection and transparent conditions for cooperation between clients and specialists.",
+            "When officially employed, specialists undergo a verification procedure and provide the necessary documents in accordance with the requirements of the legislation.",
+            "All labor relations are formalized by official contracts, which guarantees the protection of the rights and interests of both parties."
+          ]
+        },
+        {
+          "title": "6. Intellectual Property",
+          "content": [
+            "All materials of the RabotaVsem platform, including design, texts, graphics, logos, are the property of the Administration and are protected by intellectual property legislation.",
+            "The User retains rights to the content posted by them on the platform, but grants the Administration a non-exclusive license to use, reproduce and distribute such content within the framework of the platform's functioning.",
+            "It is prohibited to copy, reproduce, distribute platform materials without written permission from the Administration."
+          ]
+        },
+        {
+          "title": "7. Liability of the Parties",
+          "content": [
+            "The Administration is not responsible for the quality of services provided by specialists, as well as for the results of interaction between clients and specialists.",
+            "The Administration ensures verification of specialists and verification of data, but the final decision on cooperation is made by the client based on their own assessment.",
+            "The User is fully responsible for the accuracy of the information provided and for the consequences of its use.",
+            "The Administration is not responsible for damage caused as a result of using or inability to use the platform, including lost profits.",
+            "In case of disputes between clients and specialists, the Administration may act as a mediator, but is not responsible for resolving such disputes."
+          ]
+        },
+        {
+          "title": "8. Use Restrictions",
+          "content": [
+            "The Administration reserves the right to restrict or terminate the User's access to the platform in case of violation of this Agreement without prior notice.",
+            "The use of the platform by persons who have not reached the age established by the legislation of the Republic of Kazakhstan for concluding contracts is prohibited.",
+            "The Administration has the right to delete any content that violates this Agreement or legislation without prior notice."
+          ]
+        },
+        {
+          "title": "9. Final Provisions",
+          "content": [
+            "This Agreement is governed by the legislation of the Republic of Kazakhstan.",
+            "All disputes arising in connection with this Agreement shall be resolved through negotiations, and if no agreement is reached - in court in accordance with the legislation of the Republic of Kazakhstan.",
+            "If any provision of this Agreement is found to be invalid, the remaining provisions continue to apply in full.",
+            "The Administration reserves the right to change the functionality of the platform at any time, suspend or stop its operation without prior notice to Users.",
+            "The current version of the User Agreement is posted on the RabotaVsem platform and is available for review at any time."
+          ]
+        }
+      ]
+    },
+    "kyc": {
+      "title": "KYC (Know Your Customer)",
+      "lastUpdated": "Last updated",
+      "lastUpdatedDate": "2024",
+      "sections": [
+        {
+          "title": "1. What is KYC",
+          "content": [
+            "KYC (Know Your Customer) is a procedure for identifying and verifying clients, aimed at preventing fraud and ensuring platform security."
+          ]
+        },
+        {
+          "title": "2. Verification Procedure",
+          "content": [
+            "For anketas, we conduct verification of:",
+            "Contact data verification (phone, email)",
+            "Identity document verification",
+            "Work authorization confirmation",
+            "Experience and skills assessment"
+          ]
+        },
+        {
+          "title": "3. Why This Is Needed",
+          "content": [
+            "KYC procedure ensures:",
+            "Security for clients — all anketas are verified",
+            "Protection of anketas' rights — official employment",
+            "Transaction transparency — all conditions are clearly defined",
+            "Legal compliance"
+          ]
+        },
+        {
+          "title": "4. Confidentiality",
+          "content": [
+            "All data collected as part of the KYC procedure is stored in accordance with the Privacy Policy and legal requirements.",
+            "We do not transfer personal data to third parties without your consent."
+          ]
+        }
+      ]
+    }
+  },
+  "account": {
+    "title": "Account",
+    "subtitle": "Manage your data and settings",
+    "description": "Your personal data",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "anketa": "Applications",
+    "anketaDescription": "Applications are visible to clients who contact you",
+    "anketaCreated": "applications created",
+    "createAnketa": "Create application",
+    "noAnketa": "You don't have any applications yet",
+    "profile": "Personal data",
+    "profileDescription": "Your contact information",
+    "security": "Security",
+    "securityDescription": "Account security management",
+    "logout": "Logout",
+    "menu": "Menu",
+    "save": "Save",
+    "changesSaved": "Changes saved",
+    "loading": "Loading...",
+    "published": "Published",
+    "draft": "Draft",
+    "hide": "Hide",
+    "publish": "Publish",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "verified": "Verified",
+    "notVerified": "Not verified",
+    "codeSentTo": "Code sent to",
+    "resendCodeIn": "Resend code in {seconds} sec",
+    "emailVerified": "Email verified",
+    "emailNotVerified": "Email not verified",
+    "phoneVerified": "Phone verified",
+    "phoneNotVerified": "Phone not verified",
+    "phoneVerificationRequired": "Phone verification required",
+    "phoneVerificationDescription": "To verify your phone number, get verified status and start official work - contact us via WhatsApp",
+    "phoneVerificationWhatsAppMessage": "Hello! I want to verify my phone number {phone} to start official work.",
+    "phoneVerified": "Phone verified by administrator",
+    "contactWhatsApp": "Contact via WhatsApp",
+    "sendEmailCode": "Send email with code",
+    "sendPhoneCode": "Send code",
+    "verificationCode": "Verification code",
+    "verify": "Verify",
+    "verifying": "Verifying...",
+    "emailVerification": "Email verification",
+    "emailVerificationCodeSent": "Code sent to your email",
+    "enterEmailToVerify": "Enter email to verify",
+    "addEmail": "Add email",
+    "addPhone": "Add phone",
+    "noEmail": "You don't have an email",
+    "sendCode": "Send code",
+    "errorSendingCode": "Error sending code",
+    "verificationFailed": "Verification failed",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmNewPassword": "Confirm new password",
+    "passwordRequirements": "Minimum 8 characters, must contain a letter and a number",
+    "passwordChanged": "Password successfully changed",
+    "saveNewPassword": "Save new password",
+    "show": "Show",
+    "accountTitle": "Account"
+  },
+  "anketa": {
+    "title": "My Profiles",
+    "description": "Manage your anketa profiles",
+    "create": "Create Profile",
+    "edit": "Edit Profile",
+    "new": "New Profile",
+    "title": "Title",
+    "titlePlaceholder": "Enter anketa title",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe your services and work experience",
+    "category": "Category",
+    "selectCategory": "Select category",
+    "selectCity": "Select city",
+    "address": "Address",
+    "addressPlaceholder": "Street, house, apartment",
+    "showLocation": "Show location on map",
+    "locationOnMap": "Location on map",
+    "mapHint": "Click on the map to set your location",
+    "isActive": "Published",
+    "fullName": "Full Name",
+    "birthYear": "Birth Year",
+    "city": "City",
+    "serviceCategory": "Service Category",
+    "servicesDescription": "Services Description",
+    "bio": "About",
+    "experience": "Experience",
+    "availability": "Availability",
+    "officialEmployment": "Official Employment",
+    "contactPreferences": "Contact Preferences",
+    "isPublished": "Published",
+    "published": "Published",
+    "draft": "Draft",
+    "maxReached": "Maximum of 3 profiles (you can delete an old one and create a new one)",
+    "created": "Created",
+    "updated": "Updated",
+    "deleteConfirm": "Delete profile?",
+    "deleteConfirmDescription": "This action cannot be undone. The profile will be permanently deleted.",
+    "optional": "optional",
+    "save": "Save",
+    "delete": "Delete",
+    "view": "View",
+    "noProfiles": "You don't have any profiles yet",
+    "noProfilesDescription": "Create your first anketa profile to start offering services",
+    "myAnketas": "My Anketas",
+    "createAnketa": "Create Anketa",
+    "noAnketas": "You don't have any anketas yet",
+    "noAnketasDescription": "Create your first anketa to start offering services",
+    "createFirstAnketa": "Create First Anketa",
+    "validation": {
+      "titleRequired": "Title is required",
+      "titleMaxLength": "Title must not exceed 200 characters",
+      "descriptionMinLength": "Description must be at least 10 characters",
+      "categoryRequired": "Category is required",
+      "cityRequired": "City is required"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "sidebar": {
+      "adminPanel": "Admin Panel",
+      "overview": "Overview",
+      "users": "Users",
+      "anketas": "Anketas",
+      "categories": "Categories",
+      "cities": "Cities",
+      "settings": "Settings"
+    },
+    "overview": {
+      "title": "Admin Dashboard",
+      "subtitle": "Manage specialist anketas and site settings",
+      "users": "Users",
+      "publishedAnketas": "Published Anketas",
+      "draftAnketas": "Drafts",
+      "totalAnketas": "Total Anketas",
+      "comments": "Comments",
+      "categories": "Categories",
+      "cities": "Cities",
+      "manage": "Manage",
+      "quickActions": "Quick Actions",
+      "manageUsers": "Manage Users",
+      "manageCategories": "Manage Categories",
+      "manageCities": "Manage Cities",
+      "siteSettings": "Site Settings"
+    },
+    "users": {
+      "title": "Manage Users",
+      "subtitle": "View and manage platform users",
+      "searchPlaceholder": "Search by name, email or phone...",
+      "roleFilter": "Role",
+      "allRoles": "All roles",
+      "userRole": "User",
+      "adminRole": "Admin",
+      "verificationFilter": "Verification",
+      "all": "All",
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "noResults": "No users found",
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "role": "Role",
+        "anketas": "Anketas",
+        "comments": "Reviews",
+        "verified": "Verification",
+        "joined": "Joined",
+        "actions": "Actions"
+      },
+      "noUsers": "No users",
+      "deleteDialog": {
+        "title": "Delete user?",
+        "description": "This action cannot be undone. All user anketas and data will be permanently deleted.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      }
+    },
+    "anketas": {
+      "title": "Manage Anketas",
+      "subtitle": "View, edit and manage all specialist anketas",
+      "searchPlaceholder": "Search by title or user...",
+      "statusFilter": "Status",
+      "allStatuses": "All statuses",
+      "categoryFilter": "Category",
+      "allCategories": "All categories",
+      "noResults": "No anketas found",
+      "reviews": "Reviews",
+      "hide": "Hide",
+      "publish": "Publish",
+      "view": "View",
+      "deleteConfirm": "Delete anketa?",
+      "deleteWarning": "This action cannot be undone. The anketa will be permanently deleted.",
+      "deleting": "Deleting...",
+      "table": {
+        "title": "Title",
+        "user": "User",
+        "category": "Category",
+        "city": "City",
+        "comments": "Reviews",
+        "rating": "Rating",
+        "status": "Status",
+        "created": "Created",
+        "actions": "Actions"
+      },
+      "published": "Published",
+      "draft": "Draft",
+      "noAnketas": "No anketas",
+      "deleteDialog": {
+        "title": "Delete anketa?",
+        "description": "This action cannot be undone. The anketa will be permanently deleted.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      }
+    },
+    "categories": {
+      "title": "Manage Categories",
+      "subtitle": "Create and edit service categories",
+      "createButton": "Create Category",
+      "table": {
+        "nameRu": "Name (RU)",
+        "nameEn": "Name (EN)",
+        "nameKk": "Name (KK)",
+        "name": "Name",
+        "filterTag": "Filter Tag",
+        "imageUrl": "Image URL",
+        "anketas": "Anketas",
+        "actions": "Actions"
+      },
+      "noCategories": "No categories",
+      "active": "Active",
+      "inactive": "Inactive",
+      "deleteDialog": {
+        "title": "Delete category?",
+        "description": "This action cannot be undone. The category will be permanently deleted.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      },
+      "createDialog": {
+        "title": "Create Category",
+        "description": "Add a new service category"
+      },
+      "editDialog": {
+        "title": "Edit Category",
+        "description": "Modify category details"
+      },
+      "form": {
+        "nameRu": "Name (RU)",
+        "nameEn": "Name (EN)",
+        "nameKk": "Name (KK)",
+        "filterTag": "Filter Tag",
+        "imageUrl": "Image URL",
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "cities": {
+      "title": "Manage Cities",
+      "subtitle": "Create and edit cities",
+      "createButton": "Create City",
+      "table": {
+        "nameRu": "Name (RU)",
+        "nameEn": "Name (EN)",
+        "nameKk": "Name (KK)",
+        "anketas": "Anketas",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "noCities": "No cities",
+      "active": "Active",
+      "inactive": "Inactive",
+      "deleteDialog": {
+        "title": "Delete city?",
+        "description": "This action cannot be undone. The city will be permanently deleted.",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      },
+      "createDialog": {
+        "title": "Create City",
+        "description": "Add a new city"
+      },
+      "editDialog": {
+        "title": "Edit City",
+        "description": "Modify city details"
+      },
+      "form": {
+        "nameRu": "Name (RU)",
+        "nameEn": "Name (EN)",
+        "nameKk": "Name (KK)",
+        "isActive": "Active",
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "settings": {
+      "title": "Site Settings",
+      "subtitle": "Manage contact information and site settings",
+      "contactInfo": {
+        "title": "Contact Information",
+        "description": "Phone, WhatsApp and office address"
+      },
+      "address": {
+        "title": "Address",
+        "multiLangDescription": "Enter office address in three languages"
+      },
+      "mapSettings": {
+        "title": "Map Settings",
+        "description": "Office coordinates and embedded map"
+      },
+      "form": {
+        "phone": "Phone",
+        "whatsapp": "WhatsApp Number",
+        "address": "Address",
+        "addressPlaceholder": "Enter office address",
+        "latitude": "Latitude",
+        "longitude": "Longitude",
+        "mapEmbed": "Map HTML Code",
+        "reset": "Reset",
+        "save": "Save Changes",
+        "saving": "Saving..."
+      },
+      "saveSuccess": "Settings saved successfully",
+      "saveError": "Error saving settings"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Write to us — we're always open to dialogue and ready to help",
+    "hero": {
+      "badge": "Open to Dialogue",
+      "title": "Write to Us — We'll Help",
+      "subtitle": "We genuinely read every message and try to respond as quickly as possible. Don't hesitate — ask questions, share ideas, or just say hello."
+    },
+    "whenToContact": {
+      "title": "When and Why to Contact Us",
+      "reason1": {
+        "title": "Platform Questions",
+        "description": "Not sure how RabotaVsem works? Want to learn about opportunities for specialists or clients? Ask away — we'll explain everything in plain language."
+      },
+      "reason2": {
+        "title": "Issues and Support",
+        "description": "Something went wrong? Having technical difficulties or need help with your profile? We'll figure it out and help resolve the issue."
+      },
+      "reason3": {
+        "title": "Partnership and Collaboration",
+        "description": "Have ideas for collaboration or suggestions for platform development? We're always open to dialogue and new opportunities."
+      }
+    },
+    "form": {
+      "title": "Write to Us",
+      "subtitle": "Fill out the form below and we'll get back to you soon",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "How should we address you?",
+      "contactLabel": "Email or Phone",
+      "contactPlaceholder": "Where should we reply?",
+      "contactHint": "Provide a convenient contact method",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "What would you like to write about?",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "Tell us more about how we can help...",
+      "messageHint": "The more details you provide, the better we can assist",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "privacyNote": "We value your privacy and don't share your data with third parties",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We've received your message and will respond shortly.",
+      "error": "An error occurred while sending. Please try again or write to us on WhatsApp."
+    },
+    "methods": {
+      "title": "Other Contact Methods",
+      "whatsapp": {
+        "description": "The fastest way to get a response — message us",
+        "message": "Hello! I would like to contact you.",
+        "number": "+7 (XXX) XXX-XX-XX"
+      },
+      "email": {
+        "title": "Email",
+        "description": "For official inquiries and detailed questions",
+        "address": "hello@rabotavsem.kz"
+      },
+      "phone": {
+        "title": "Phone",
+        "description": "Call during business hours — we'd love to chat",
+        "number": "+7 (XXX) XXX-XX-XX"
+      }
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "schedule": "Monday — Friday: 9:00 AM — 6:00 PM. On weekends we respond to urgent questions on WhatsApp."
+    },
+    "urgent": {
+      "title": "Need Urgent Help?",
+      "description": "If your question can't wait — write on WhatsApp. We try to respond within an hour during business hours.",
+      "button": "Write Urgently"
+    },
+    "location": {
+      "title": "Where We Are",
+      "description": "We work online and help people throughout Kazakhstan. But if you'd like to know where our office is — here's the address.",
+      "addressLabel": "Address",
+      "address": "123 Sample Street, Office 45",
+      "cityLabel": "City",
+      "city": "Almaty, Kazakhstan",
+      "mapPlaceholder": "Office map (coming soon)"
+    },
+    "trust": {
+      "title": "Why You Can Write Safely",
+      "description": "We respect your privacy. All data you share with us is used only to answer your question and is not shared with third parties. We work honestly and value the trust of everyone who contacts us."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about RabotaVsem — the platform that's changing the labor market",
+    "hero": {
+      "badge": "Our Mission",
+      "title": "We're Building the Future of Fair Work",
+      "subtitle": "RabotaVsem is more than a platform. It's a movement for decent working conditions, transparency, and mutual respect between people."
+    },
+    "story": {
+      "title": "How It All Started",
+      "paragraph1": "It all began with a simple question: why is it so hard to find honest work with transparent conditions? Why are people forced to work without contracts, without guarantees, risking their time and reputation?",
+      "paragraph2": "We saw thousands of talented people — students, young parents, specialists looking for part-time work — who wanted to work legally but didn't know where to find such opportunities. And we decided to change that.",
+      "paragraph3": "That's how RabotaVsem was born — a platform where everyone can find official employment with fair conditions, without gray schemes and hidden commissions."
+    },
+    "difference": {
+      "title": "What Makes Us Special",
+      "item1": {
+        "title": "100% Legality",
+        "description": "We don't compromise. Every specialist works officially — with a contract, transparent conditions, and rights protection. This isn't just a legal requirement, it's our philosophy."
+      },
+      "item2": {
+        "title": "People First",
+        "description": "To us, you're not just a user or application number. You're a person with dreams, goals, and the right to decent work. We've created a platform that respects your time and labor."
+      },
+      "item3": {
+        "title": "Honesty in Everything",
+        "description": "No hidden fees. No surprises. No promises we can't keep. Just fair conditions, clear rules, and open communication."
+      },
+      "item4": {
+        "title": "Growing Together",
+        "description": "We don't just connect specialists with clients. We're building a community of professionals where everyone can develop, earn reputation, and build a career on their own terms."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "member1": {
+        "name": "Aliya Seitova",
+        "role": "Founder & CEO",
+        "quote": "We're creating a future where every specialist works with pride and is protected by law."
+      },
+      "member2": {
+        "name": "Yerlan Nurmanov",
+        "role": "Chief Technology Officer",
+        "quote": "Technology should serve people and make their lives simpler and safer."
+      },
+      "member3": {
+        "name": "Dina Zhaksylykova",
+        "role": "Head of Support",
+        "quote": "Our mission is to be with every user at every step of their journey."
+      }
+    },
+    "values": {
+      "title": "Our Values in Action",
+      "value1": {
+        "title": "Trust Through Transparency",
+        "story": "When Aigul registered on the platform, she saw all working conditions for the first time before signing a contract. No hidden clauses, no surprises. Today she recommends us to all her friends."
+      },
+      "value2": {
+        "title": "Protecting Your Rights",
+        "story": "When Daniyar had a dispute with a client, our support team resolved the situation within 24 hours. The official contract protected his rights, and the conflict was resolved fairly for both parties."
+      },
+      "value3": {
+        "title": "Opportunities for Everyone",
+        "story": "Alina is a mother of two who was looking for a flexible schedule. A week after registration, she found her first clients and now works on her own terms, balancing family care and career."
+      }
+    },
+    "impact": {
+      "title": "Our Impact",
+      "subtitle": "Numbers that speak for themselves",
+      "stat1": {
+        "number": "500+",
+        "label": "Specialists",
+        "description": "Working officially thanks to the platform"
+      },
+      "stat2": {
+        "number": "1000+",
+        "label": "Happy Clients",
+        "description": "Found reliable specialists"
+      },
+      "stat3": {
+        "number": "98%",
+        "label": "Satisfaction",
+        "description": "Of our users recommend us to friends"
+      }
+    },
+    "trust": {
+      "title": "What People Say About Us",
+      "testimonial1": {
+        "text": "For the first time in years of work, I feel protected. Official contract, transparent conditions, 24/7 support — this is what I dreamed of. RabotaVsem changed my attitude to work.",
+        "name": "Aizhan Nurlanova",
+        "role": "Cleaning Specialist"
+      },
+      "testimonial2": {
+        "text": "As a business owner, I value reliability. All specialists are verified, work officially, and I can be confident in quality. This saves my time and nerves.",
+        "name": "Yerlan Tokaev",
+        "role": "Entrepreneur"
+      }
+    },
+    "future": {
+      "title": "Where We're Heading",
+      "vision": "Our goal isn't just to become the largest platform. We want to change the culture of work, make official employment the norm, not the exception. We believe in a world where every person can work legally, safely, and with respect.",
+      "goal1": "Cover all major cities in Kazakhstan by the end of the year",
+      "goal2": "Help 10,000 specialists find official employment",
+      "goal3": "Become a model of honest and transparent platform for the entire industry"
+    },
+    "cta": {
+      "title": "Join the Movement",
+      "description": "Become part of a community that's changing the rules. Work honestly, earn decently, live peacefully.",
+      "button1": "Find a Specialist",
+      "button2": "Become a Specialist"
+    }
+  }
+}

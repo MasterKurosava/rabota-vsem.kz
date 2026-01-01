@@ -1,0 +1,334 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Semantic Color System - Light Theme */
+    --background: 250 250 252;
+    --surface: 255 255 255;
+    --surface-muted: 248 249 250;
+    --border: 229 231 235;
+    --border-strong: 209 213 219;
+    
+    --primary: 99 102 241;
+    --primary-hover: 79 70 229;
+    --primary-light: 238 242 255;
+    
+    --accent: 251 146 60;
+    --accent-light: 255 247 237;
+    
+    --success: 34 197 94;
+    --success-light: 240 253 244;
+    
+    --warning: 234 179 8;
+    --warning-light: 254 252 232;
+    
+    --danger: 239 68 68;
+    --danger-light: 254 242 242;
+    
+    --text-primary: 17 24 39;
+    --text-secondary: 107 114 128;
+    --text-muted: 156 163 175;
+    
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    
+    --radius: 0.75rem;
+    --radius-sm: 0.5rem;
+    --radius-lg: 1rem;
+  }
+
+  .dark {
+    /* Semantic Color System - Dark Theme */
+    --background: 17 24 39;
+    --surface: 31 41 55;
+    --surface-muted: 37 47 63;
+    --border: 55 65 81;
+    --border-strong: 75 85 99;
+    
+    --primary: 129 140 248;
+    --primary-hover: 165 180 252;
+    --primary-light: 30 27 75;
+    
+    --accent: 251 146 60;
+    --accent-light: 68 47 20;
+    
+    --success: 74 222 128;
+    --success-light: 20 83 45;
+    
+    --warning: 250 204 21;
+    --warning-light: 66 56 20;
+    
+    --danger: 248 113 113;
+    --danger-light: 69 10 10;
+    
+    --text-primary: 249 250 251;
+    --text-secondary: 209 213 219;
+    --text-muted: 156 163 175;
+    
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.4);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.4);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  /* Ensure base styles are applied */
+  html {
+    @apply antialiased;
+  }
+  
+  /* Center container by default */
+  .container {
+    @apply mx-auto;
+  }
+  
+  /* Typography improvements */
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight;
+    line-height: 1.1;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl font-semibold tracking-tight;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold;
+    line-height: 1.3;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+  
+  /* Improved line-height for text-heavy content */
+  .prose {
+    @apply leading-7;
+  }
+  
+  .prose p {
+    @apply mb-4;
+  }
+}
+
+@layer components {
+  /* Card animations */
+  .card-hover {
+    @apply transition-all duration-200 ease-out;
+  }
+  
+  .card-hover:hover {
+    @apply -translate-y-1 shadow-lg;
+  }
+  
+  /* Button improvements */
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-hover;
+    @apply transition-all duration-200 ease-out;
+    @apply active:scale-[0.98];
+  }
+  
+  .btn-primary:hover {
+    @apply shadow-md;
+  }
+  
+  /* Section spacing */
+  .section-spacing {
+    @apply py-16 md:py-24;
+  }
+  
+  /* Container max-width for readability */
+  .content-container {
+    @apply max-w-4xl mx-auto;
+  }
+  
+  /* Trust badge */
+  .trust-badge {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full;
+    @apply bg-success-light text-success;
+    @apply text-sm font-medium;
+  }
+}
+
+@layer utilities {
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Focus visible improvements */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+}
+
+/* Hero Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(0, -20px, 0) rotate(5deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(0, 20px, 0) rotate(-5deg);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  33% {
+    transform: translate3d(30px, -30px, 0) rotate(120deg);
+  }
+  66% {
+    transform: translate3d(-20px, 20px, 0) rotate(240deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(360deg);
+  }
+}
+
+@keyframes driftSlow {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(50px, 50px, 0) rotate(180deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes borderPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgb(var(--primary) / 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgb(var(--primary) / 0);
+  }
+}
+
+@keyframes iconBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@keyframes drawLine {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 8s ease-in-out infinite;
+}
+
+.animate-drift {
+  animation: drift 20s ease-in-out infinite;
+}
+
+.animate-drift-slow {
+  animation: driftSlow 30s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 4s ease-in-out infinite;
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 3s ease-in-out infinite;
+}
+
+.animate-border-pulse {
+  animation: borderPulse 2s ease-in-out infinite;
+}
+
+.animate-icon-bounce {
+  animation: iconBounce 2s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-4px); }
+  20%, 40%, 60%, 80% { transform: translateX(4px); }
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
+.leaflet-container {
+  border-radius: 12px;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px;
+}

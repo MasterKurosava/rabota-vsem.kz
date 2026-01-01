@@ -1,0 +1,210 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//
+// ─── ENUMS ─────────────────────────────────────────────────────────────────
+//
+
+enum Role {
+  USER
+  ADMIN
+}
+
+//
+// ─── USER ──────────────────────────────────────────────────────────────────
+//
+
+model User {
+  id             String   @id @default(cuid())
+  name           String
+  email          String?  @unique @map("email")
+  phone          String?  @unique @map("phone")
+  password       String?  @map("password")
+  role           Role     @default(USER)
+  rating         Float?   @default(0)
+  emailVerified  Boolean  @default(false) @map("email_verified")
+  phoneVerified  Boolean  @default(false) @map("phone_verified")
+  createdAt      DateTime @default(now()) @map("created_at")
+
+  anketa         Anketa[]
+  commentsSent   Comment[] @relation("comment_author")
+  commentsRecv   Comment[] @relation("comment_recipient")
+
+  @@index([email])
+  @@index([phone])
+
+  @@map("users")
+}
+
+//
+// ─── CITY ──────────────────────────────────────────────────────────────────
+//
+
+model City {
+  id        String   @id @default(cuid())
+  nameRu    String   @map("name_ru")
+  nameEn    String   @map("name_en")
+  nameKk    String   @map("name_kk")
+  isActive  Boolean  @default(true) @map("is_active")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  anketa    Anketa[]
+
+  @@index([isActive])
+  @@map("cities")
+}
+
+//
+// ─── CATEGORY ──────────────────────────────────────────────────────────────
+//
+
+model Category {
+  id        String   @id @default(cuid())
+  nameRu    String   @map("name_ru")
+  nameEn    String   @map("name_en")
+  nameKk    String   @map("name_kk")
+  imageUrl  String   @map("image_url")
+  filterTag String   @unique @map("filter_tag")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  anketa    Anketa[]
+
+  @@index([filterTag])
+  @@map("categories")
+}
+
+//
+// ─── ANKETA ────────────────────────────────────────────────────────────────
+//
+
+model Anketa {
+  id           String   @id @default(cuid())
+  userId       String   @map("user_id")
+  categoryId   String   @map("category_id")
+  cityId       String   @map("city_id")
+
+  title        String
+  description  String   @db.Text
+
+  address      String?
+  latitude     Float?
+  longitude    Float?
+  showLocation Boolean  @default(false) @map("show_location")
+  isActive     Boolean  @default(true) @map("is_active")
+
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  city     City     @relation(fields: [cityId], references: [id])
+  category Category @relation(fields: [categoryId], references: [id])
+
+  comments Comment[]
+
+  @@index([userId, createdAt])
+  @@index([cityId])
+  @@index([categoryId])
+  @@index([isActive])
+  @@index([isActive, categoryId, cityId])
+
+  @@map("anketa")
+}
+
+//
+// ─── COMMENTS ──────────────────────────────────────────────────────────────
+//
+
+model Comment {
+  id           String   @id @default(cuid())
+  authorId     String   @map("author_id")
+  recipientId  String   @map("recipient_id")
+  anketaId     String?  @map("anketa_id")
+
+  rating       Int
+  text         String   @db.Text
+
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  author    User   @relation("comment_author", fields: [authorId], references: [id], onDelete: Cascade)
+  recipient User   @relation("comment_recipient", fields: [recipientId], references: [id], onDelete: Cascade)
+  anketa    Anketa? @relation(fields: [anketaId], references: [id], onDelete: Cascade)
+
+  @@index([authorId])
+  @@index([recipientId])
+  @@index([anketaId])
+  @@index([createdAt])
+  @@index([authorId, anketaId])
+
+  @@map("comments")
+}
+
+//
+// ─── SITE SETTINGS ────────────────────────────────────────────────────────
+//
+
+model SiteSettings {
+  id             String   @id @default(cuid())
+  phone          String?
+  address        String?  @db.Text
+  whatsappNumber String?  @map("whatsapp_number")
+  mapEmbedUrl    String?  @map("map_embed_url")
+
+  officeLat      Float?   @map("office_lat")
+  officeLng      Float?   @map("office_lng")
+
+  footerLinks    String?  @db.Text @map("footer_links")
+  homepageTexts  String?  @db.Text @map("homepage_texts")
+  faq            String?  @db.Text
+  about          String?  @db.Text
+
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@map("site_settings")
+}
+
+//
+// ─── REGISTRATION ATTEMPTS ────────────────────────────────────────────────
+//
+
+model RegistrationAttempt {
+  id           String   @id @default(cuid())
+  email        String
+  codeHash     String   @map("code_hash")
+  expiresAt    DateTime @map("expires_at")
+
+  attemptsLeft Int      @default(5) @map("attempts_left")
+  blockedUntil DateTime? @map("blocked_until")
+
+  payload      Json     // first_name, last_name, password_hash
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  @@unique([email])
+  @@index([expiresAt])
+  @@index([blockedUntil])
+
+  @@map("registration_attempts")
+}
+
+//
+// ─── VERIFICATION CODES ───────────────────────────────────────────────────
+//
+
+model VerificationCode {
+  id        String   @id @default(cuid())
+  email     String
+  code      String
+  expiresAt DateTime @map("expires_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([email])
+  @@index([expiresAt])
+
+  @@map("verification_codes")
+}
